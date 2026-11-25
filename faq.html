@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preguntas frecuentes | Farmacia María Auxiliadora</title>
+  <meta name="description" content="Preguntas frecuentes sobre horarios, entregas, pagos y medicamentos.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%230b5d4b'/%3E%3Cpath d='M16 8h8v8h8v8h-8v8h-8v-8H8v-8h8z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Aplica el tema guardado antes de pintar la página (evita parpadeo) -->
+  <script>
+    try {
+      var t = localStorage.getItem("tema") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="header">
+    <div class="contenedor">
+      <a class="logo" href="index.html" aria-label="Farmacia María Auxiliadora, ir al inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#0b5d4b"/><path d="M16 8h8v8h8v8h-8v8h-8v-8H8v-8h8z" fill="#fff"/><circle cx="31" cy="9" r="3.5" fill="#f0a62b"/></svg><span>María Auxiliadora<small>Farmacia</small></span></a>
+      <nav class="nav" id="nav" aria-label="Navegación principal"><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="galeria.html">Galería</a></li><li><a href="noticias.html">Noticias</a></li><li><a href="faq.html" aria-current="page">Preguntas</a></li><li><a href="contacto.html">Contacto</a></li></ul></nav>
+      <div class="acciones-header">
+        <button class="btn-icono" id="btn-tema" aria-label="Cambiar tema">🌙</button>
+        <button class="btn-icono menu-btn" id="btn-menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="contenedor">
+        <p class="migas"><a href="index.html">Inicio</a> / Preguntas frecuentes</p>
+        <h1>Preguntas frecuentes</h1>
+        <p>Respuestas rápidas a las consultas más comunes.</p>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="accordion" id="accordion"></div>
+        <p style="text-align:center;margin:2rem auto 0">¿No encontraste lo que buscabas? <a href="contacto.html">Escribinos</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html" style="color:#fff"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#0b5d4b"/><path d="M16 8h8v8h8v8h-8v8h-8v-8H8v-8h8z" fill="#fff"/><circle cx="31" cy="9" r="3.5" fill="#f0a62b"/></svg><span>María Auxiliadora<small style="color:#9fb7ad">Farmacia</small></span></a>
+          <p style="margin-top:1rem">Cuidamos de vos y de tu familia con atención cercana y profesional.</p>
+          <div class="redes">
+            <a data-wa href="#">WhatsApp</a>
+            <a data-mapa-link href="#">Cómo llegar</a>
+          </div>
+        </div>
+        <div>
+          <h3>Navegación</h3>
+          <ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="galeria.html">Galería</a></li><li><a href="noticias.html">Noticias</a></li><li><a href="faq.html">Preguntas</a></li><li><a href="contacto.html">Contacto</a></li></ul>
+        </div>
+        <div>
+          <h3>Más información</h3>
+          <ul>
+            <li><a href="desarrolladores.html">Desarrolladores</a></li>
+            <li><a href="privacidad.html">Política de privacidad</a></li>
+            <li><a href="privacidad.html#terminos">Términos y condiciones</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <ul>
+            <li>📍 <span data-cfg="direccion">Dirección</span></li>
+            <li>📞 <a data-tel href="#"><span data-cfg="telefono">Teléfono</span></a></li>
+            <li>✉️ <a data-mail href="#"><span data-cfg="email">Correo</span></a></li>
+            <li>🕒 <span data-cfg="horarioTexto">Horario</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-final">
+        <span>© <span data-anio>2026</span> Farmacia María Auxiliadora. Todos los derechos reservados.</span>
+        <span>Sitio desarrollado para Programación III</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-flotante" data-wa href="#" aria-label="Escribinos por WhatsApp">💬 <span>WhatsApp</span></a>
+  <button class="volver-arriba" id="volver-arriba" aria-label="Volver arriba">↑</button>
+
+  <!-- Modal reutilizable (productos, noticias, galería) -->
+  <div class="modal-fondo" id="modal">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Información ampliada">
+      <button class="btn-icono modal-cerrar" aria-label="Cerrar">✕</button>
+      <div id="modal-cuerpo"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/faq.js"></script>
+</body>
+</html>

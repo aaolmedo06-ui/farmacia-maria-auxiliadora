@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Rehidratación">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E7C86"/><stop offset="1" stop-color="#35B0B8"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<circle cx="520" cy="60" r="150" fill="#fff" fill-opacity=".08"/><circle cx="60" cy="400" r="120" fill="#fff" fill-opacity=".07"/>
+<g transform="translate(0 0.0) scale(1.0)"><path d="M300 110C250 185 225 220 225 262a75 75 0 0 0 150 0c0-42-25-77-75-152z" fill="#fff" fill-opacity=".95"/><path d="M262 262a38 38 0 0 0 30 37" stroke="#000" stroke-opacity=".18" stroke-width="12" fill="none" stroke-linecap="round"/></g><text x="300" y="412" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff" fill-opacity=".9">Rehidratación</text></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Ibuprofeno">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F5C8A"/><stop offset="1" stop-color="#3B8BC4"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<circle cx="520" cy="60" r="150" fill="#fff" fill-opacity=".08"/><circle cx="60" cy="400" r="120" fill="#fff" fill-opacity=".07"/>
+<g transform="translate(0 0.0) scale(1.0)"><g transform="rotate(-35 300 225)"><rect x="200" y="185" width="200" height="80" rx="40" fill="#fff" fill-opacity=".95"/><path d="M300 185h60a40 40 0 0 1 0 80h-60z" fill="#fff" fill-opacity=".55"/></g></g><text x="300" y="412" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff" fill-opacity=".9">Ibuprofeno</text></svg>

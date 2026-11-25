@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="noticia-2">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F5C8A"/><stop offset="1" stop-color="#3B8BC4"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<circle cx="520" cy="60" r="150" fill="#fff" fill-opacity=".08"/><circle cx="60" cy="400" r="120" fill="#fff" fill-opacity=".07"/>
+<g transform="translate(0 0.0) scale(1.0)"><rect x="150" y="165" width="190" height="130" rx="12" fill="#fff" fill-opacity=".95"/><path d="M340 205h60l45 45v45H340z" fill="#fff"/><circle cx="210" cy="305" r="26" fill="#fff"/><circle cx="210" cy="305" r="11" fill="#000" fill-opacity=".25"/><circle cx="395" cy="305" r="26" fill="#fff"/><circle cx="395" cy="305" r="11" fill="#000" fill-opacity=".25"/></g></svg>
