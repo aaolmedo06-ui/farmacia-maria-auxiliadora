@@ -21,8 +21,8 @@ const CONFIG = {
 
   // EmailJS (https://www.emailjs.com) — ver README.md, paso a paso.
   emailjs: {
-    publicKey: "TU_PUBLIC_KEY",
-    serviceId: "TU_SERVICE_ID",
-    templateId: "TU_TEMPLATE_ID",
+    publicKey: "zmmR6eU8yMzpQ0zlf",
+   serviceId: "service_xnegm4i",
+   templateId: "template_29qkg26",
   },
 };
